@@ -15,7 +15,7 @@ public class SendingPostRequests {
 
     @BeforeClass
     public static void setUp() {
-        RestAssured.baseURI = "http://3.89.115.0";
+        RestAssured.baseURI = "http://54.90.192.251";
         RestAssured.port = 8000;
         RestAssured.basePath = "/api";
         // above will generate a BASE REQUEST URL OF http://52.23.254.102:8000/api
